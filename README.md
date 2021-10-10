@@ -37,7 +37,7 @@ Please edit only the fields with the comment.
 ]
 ```
 
-Enter the validator Telegram group for more information: 
+Enter the validator Telegram group for more information: https://t.me/joinchat/amEwf_syLTFhYjRk
 
 ## Run
 
