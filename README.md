@@ -8,7 +8,7 @@ We highly encourage you to use the provided Dockerfile.
 
 ## Configuration
 
-Configure the app modifying [app.json](/app.json). 
+Clone the repo, then configure the app by modifying [app.json](/app.json). 
 Please edit only the fields with the comment.
 
 ```json
@@ -29,7 +29,7 @@ Please edit only the fields with the comment.
       "LISTENING_PORT": "30303",
       "INSTANCE_NAME": "Jelly", // The name of your node (Will be fetched)
       "CONTACT_DETAILS": "https://www.jellypool.xyz", // Contact details (will be fetched anyway)
-      "WS_SERVER": "ws://meter-stats-server.nextblu.com:3030", 
+      "WS_SERVER": "ws://meterstats.jellypool.xyz:3030", 
       "WS_SECRET": "metermonitorsecret",
       "VERBOSITY": 2
     }
