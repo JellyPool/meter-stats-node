@@ -20,7 +20,7 @@ echo """
       \"RPC_HOST\": \"$PUBLIC_IP_ADDR\",
       \"RPC_PORT\": \"8545\",
       \"LISTENING_PORT\": \"30303\",
-      \"INSTANCE_NAME\": \"Jelly\",
+      \"INSTANCE_NAME\": \"NewNode\",
       \"CONTACT_DETAILS\": \"https://www.jellypool.xyz\",
       \"WS_SERVER\": \"ws://meter-stats-server.nextblu.com:3030\",
       \"WS_SECRET\": \"metermonitorsecret\",
