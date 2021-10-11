@@ -8,6 +8,8 @@ We highly encourage you to use the provided Dockerfile.
 
 ## Configuration
 
+Please open the port 8545
+
 Clone the repo
 
 ```bash
