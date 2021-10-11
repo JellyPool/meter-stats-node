@@ -8,7 +8,13 @@ We highly encourage you to use the provided Dockerfile.
 
 ## Configuration
 
-Clone the repo, then configure the app by modifying [app.json](/app.json). 
+Clone the repo
+
+```bash
+git clone https://github.com/nextblu/meter-stats-node.git
+```
+
+Now configure the app by modifying [app.json](/app.json). 
 Please edit only the fields with the comment.
 
 ```json
