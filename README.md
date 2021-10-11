@@ -14,7 +14,8 @@ Clone the repo
 git clone https://github.com/nextblu/meter-stats-node.git
 ```
 
-Now configure the app by modifying [app.json](/app.json). 
+
+Now cd into ```meter-stats-node``` and configure the app by modifying [app.json](/app.json). 
 Please edit only the fields with the comment.
 
 ```json
@@ -51,5 +52,5 @@ After editing the app.json file you can start the service with the following doc
 
 ```bash
 docker build . -t node_monitor
-docker start -d -t node_monitor
+docker run -d -t node_monitor
 ```
