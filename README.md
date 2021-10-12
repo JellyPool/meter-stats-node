@@ -16,8 +16,13 @@ Clone the repo
 git clone https://github.com/nextblu/meter-stats-node.git
 ```
 
+Now type
 
-Now type ```cd meter-stats-node``` and run the docker commands.
+```bash
+cd meter-stats-node
+```
+
+and follow the next section!
 
 ## Run
 
