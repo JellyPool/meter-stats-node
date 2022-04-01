@@ -10,4 +10,4 @@ RUN chmod +x ./perform_app_init.sh
 RUN ./perform_app_init.sh
 
 ENV WS_SECRET="metermonitorsecret"
-CMD ["pm2-runtime", "start", "app.json"]
+CMD ["pm2-runtime", "start", "app.json", "--cron-restart='0 0 * * *'"]
