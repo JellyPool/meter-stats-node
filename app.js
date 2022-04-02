@@ -1,21 +1,21 @@
 'use strict';
 
-var nodeModel = require('./lib/node');
+const nodeModel = require('./lib/node');
 
-var node = new nodeModel();
+const node = new nodeModel();
 
-var gracefulShutdown = function() {
-	console.log('');
+const gracefulShutdown = function () {
+    console.log('');
     console.error("xxx", "sys", "Received kill signal, shutting down gracefully.");
 
     node.stop();
     console.info("xxx", "sys", "Closed node watcher");
 
-    setTimeout(function(){
+    setTimeout(function () {
         console.info("xxx", "sys", "Closed out remaining connections.");
         process.exit(0);
     }, 1000);
-}
+};
 
 // listen for TERM signal .e.g. kill
 process.on('SIGTERM', gracefulShutdown);
