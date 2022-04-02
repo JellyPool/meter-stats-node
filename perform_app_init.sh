@@ -13,7 +13,7 @@ echo """
     \"log_date_format\": \"YYYY-MM-DD HH:mm Z\",
     \"merge_logs\": false,
     \"watch\": false,
-    \"max_restarts\": 100,
+    \"max_restarts\": 10000,
     \"exec_interpreter\": \"node\",
     \"exec_mode\": \"fork_mode\",
     \"env\": {
