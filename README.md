@@ -1,4 +1,4 @@
-Meter node status monitor
+Meter node status monitor [![Docker](https://github.com/nextblu/meter-stats-node/actions/workflows/docker-publish.yml/badge.svg?branch=master)](https://github.com/nextblu/meter-stats-node/actions/workflows/docker-publish.yml)
 =================================
 
 This is the backend service that should be runned inside the same machine of the Meter node.
