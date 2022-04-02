@@ -36,6 +36,6 @@ docker run -d -t node_monitor
 🥳 Congratulations! Now you are part of the meterstats website!
 
 
-Enter the validator Telegram group for more information: https://t.me/joinchat/amEwf_syLTFhYjRk
+Enter the validators Telegram group for more information: https://t.me/joinchat/amEwf_syLTFhYjRk
 
 Ported and maintained by Jelly.
