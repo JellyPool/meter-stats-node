@@ -13,6 +13,7 @@ docker rm $(docker stop $(docker ps -a -q --filter ancestor=node_monitor --forma
 # Initialize the new container installation
 echo "Building new node_monitor version.."
 docker build meter-stats-node/ -t node_monitor
+echo "Running new node_monitor container.."
 docker run -d -t node_monitor
 
 # Done!
