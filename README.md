@@ -40,7 +40,7 @@ You can start the service with the following docker commands:
 
 ```bash
 docker build . -t node_monitor
-docker run -d -t node_monitor
+docker run -d --restart always -t node_monitor
 ```
 
 🥳 Congratulations! Now you are part of the meterstats website!

@@ -14,7 +14,7 @@ docker rm $(docker stop $(docker ps -a -q --filter ancestor=node_monitor --forma
 echo "Building new node_monitor version.."
 docker build meter-stats-node/ -t node_monitor
 echo "Running new node_monitor container.."
-docker run -d -t node_monitor
+docker run -d --restart always -t node_monitor
 
 # Done!
 echo "Done! Thanks for your contribution! \nYou can find your node here: https://meterstats.jellypool.xyz/"
