@@ -16,6 +16,9 @@ echo """
     \"max_restarts\": 10000,
     \"exec_interpreter\": \"node\",
     \"exec_mode\": \"fork_mode\",
+    \"max_memory_restart": "800M\",
+    \"error_file": "/dev/null\",
+    \"out_file": "/dev/null\",
     \"env\": {
       \"NODE_ENV\": \"production\",
       \"RPC_HOST\": \"$PUBLIC_IP_ADDR\",
