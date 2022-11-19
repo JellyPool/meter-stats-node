@@ -17,4 +17,4 @@ echo "Running new node_monitor container.."
 docker run -d --restart always -t node_monitor
 
 # Done!
-echo "Done! Thanks for your contribution! \nYou can find your node here: https://meterstats.jellypool.xyz/"
+echo "Done! Thanks for your contribution! You can find your node here: https://meterstats.jellypool.xyz/"
