@@ -4,7 +4,7 @@ rm -rf ./meter-stats-node/
 
 # Pull the git repo
 echo "Cloning new repository version.."
-git clone https://github.com/nextblu/meter-stats-node.git
+git clone https://github.com/JellyPool/meter-stats-node.git
 
 # Terminate the node_monitor container
 echo "Terminating node_monitor container.."
